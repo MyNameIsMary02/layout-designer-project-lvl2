@@ -1,0 +1,64 @@
+/* ARTIST-PAGE GENERAL */
+
+.artist {
+  background-image: url('projects-css-l2-musicbox/images/Morten Harket.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.number {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.artist-title {
+  position: relative;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .artist-title {
+    margin-top: 25px;
+  }
+}
+
+/* BUTTON */
+
+.purple {
+  background: $purple;
+}
+
+.red-fav {
+  background: $red;
+}
+
+.mix-btn,
+.favorites-btn {
+  width: 200px;
+  height: 62px;
+  font-size: 12.8px;
+  text-align: left;
+  border: none;
+}
+
+.artist-logo {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 16px;
+}
+
+button.purple {
+  margin-right: 1.5rem;
+}
+
+.filter {
+  filter: invert(100%);
+}
+
+@media screen and (max-width: 700px) {
+  button.purple {
+    margin-bottom: 1.5rem;
+  }
+}

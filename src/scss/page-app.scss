@@ -1,0 +1,73 @@
+/* PAGE-APP GENERAL */
+
+#page-app {
+  @include all-section-general-settings;
+
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.article {
+  font-size: 16px;
+  text-align: left;
+  width: 50%;
+  margin-right: 145px;
+}
+
+@media screen and (max-width: 700px) {
+  .article {
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+.img-size {
+  width: 333px;
+  height: 278px;
+}
+
+/* BUTTON */
+
+.red {
+  width: 131px;
+  height: 53px;
+  padding: 16px 40px;
+  background: $red;
+  border: none;
+  border-radius: 32px;
+  font-size: 12.8px;
+  text-transform: none;
+}
+
+/* ATOMIC */
+
+.ml-0 {
+  margin-left: 0;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-1em {
+  margin-top: 1em;
+}
+
+.fl-gr {
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 700px) {
+  .order-1 {
+    order: 1;
+    margin: 0 auto;
+  }
+
+  .order-2 {
+    order: 2;
+  }
+
+  .mt-1em {
+    margin-top: 1em;
+  }
+}

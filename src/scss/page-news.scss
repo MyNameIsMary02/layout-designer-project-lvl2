@@ -1,0 +1,136 @@
+/* NEWS-PAGE GENERAL */
+
+#page-news {
+  @include all-section-general-settings;
+
+  text-align: center;
+}
+
+/* BUTTON */
+
+.news-button {
+  display: inline-block;
+  height: 53px;
+  width: 136px;
+  margin-left: 0;
+  padding: 16px 30px;
+  border: 1px solid;
+  background: none;
+  font-size: 12.8px;
+  line-height: 150%;
+}
+
+/* NEWS-ELEMENTS */
+
+.news-body h3 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 700px) {
+  .news-body h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.orange-text {
+  color: $orange;
+}
+
+.news-item {
+  justify-content: space-between;
+}
+
+.news-body {
+  width: 575px;
+  text-align: left;
+  margin-right: 0;
+}
+
+.news-item img {
+  width: 575px;
+  height: 286px;
+}
+
+@media screen and (max-width: 700px) {
+  .news-body {
+    width: 100%;
+  }
+
+  .news-item img {
+    width: 374px;
+    height: 186px;
+  }
+}
+
+.news-author {
+  margin-top: 24px;
+  margin-bottom: 48px;
+  font-size: 12.8px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.news-author img {
+  width: 19px;
+  height: 19px;
+}
+
+@media screen and (max-width: 700px) {
+  .news-author {
+    margin-top: 23px;
+  }
+}
+
+/* ATOMIC */
+
+.pb-48 {
+  margin-bottom: 48px;
+}
+
+.mt-65 {
+  margin-top: 65px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.ml-mr-16 {
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+button {
+  color: $gray;
+}
+
+@media screen and (max-width: 700px) {
+  .mb-30 {
+    margin-top: 50px;
+    margin-bottom: 16px;
+  }
+
+  .ml-50 {
+    margin-left: 0;
+  }
+
+  .pb-1 {
+    padding-bottom: 1rem;
+  }
+
+  .mt-65 {
+    margin-top: 64px;
+  }
+}

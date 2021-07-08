@@ -1,0 +1,57 @@
+/* POPULAR-TRACK GENERAL */
+
+#page-popular-track {
+  @include all-section-general-settings;
+}
+
+.popular-track-list {
+  margin-top: 48px;
+}
+
+.track-info {
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular-track img {
+  width: 55px;
+  height: 55px;
+}
+
+.popular-track h3 {
+  font-size: 12.8px;
+  line-height: 150%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.popular-track {
+  width: 50%;
+  margin-bottom: 25px;
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 770px) {
+  .popular-track {
+    width: 100%;
+  }
+}
+
+/* ATOMIC */
+
+.time {
+  padding-right: 50px;
+}
+
+.pd-l-15 {
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 770px) {
+  .time {
+    padding-right: 0;
+  }
+}

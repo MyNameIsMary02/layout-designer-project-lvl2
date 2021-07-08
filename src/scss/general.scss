@@ -1,0 +1,141 @@
+@font-face {
+  font-weight: normal;
+  font-family: "Roboto";
+  src: url("projects-css-l2-musicbox/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "Roboto";
+  src: url("projects-css-l2-musicbox/fonts/Roboto-Bold.ttf");
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #fff;
+  background: $main-black;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.btn {
+  position: relative;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0 auto;
+  padding: 20px 30px;
+  border-left-width: 5px;
+  border-right-width: 5px;
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  border-radius: 5px;
+  font: normal 13.3px Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+}
+
+@mixin all-section-general-settings {
+  height: 100%;
+  padding-top: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}

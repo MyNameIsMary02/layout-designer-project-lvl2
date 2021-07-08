@@ -1,0 +1,218 @@
+/* BANNER-PAGE General and Background */
+
+#page-description {
+  height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 200px 120px;
+}
+
+.main {
+  padding-top: 200px;
+  background-image: url('./projects-css-l2-musicbox/images/banner.png');
+  background-position: center;
+  background-size: cover;
+}
+
+.main-title {
+  position: relative;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  #page-description {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .main-title {
+    padding-top: 49px;
+  }
+}
+
+/* FORM */
+
+.sign-up-form {
+  padding-top: 1em;
+  justify-content: center;
+  max-width: 570px;
+}
+
+#page-description form {
+  margin: 0 auto;
+}
+
+.sign-up-form div {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.name,
+.email {
+  min-width: 270px;
+  min-height: 50px;
+  justify-content: flex-start;
+  padding-left: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 3px;
+  border: solid 2px #cacaca;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  background: none;
+  text-transform: capitalize;
+}
+
+.name {
+  margin-right: 12px;
+}
+
+.email {
+  margin-left: 12px;
+}
+
+.submit {
+  min-height: 57px;
+  width: 570px;
+  margin-top: 24px;
+  background: $green;
+  color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .sign-up-form div {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .email {
+    margin-left: 0;
+  }
+
+  .sign-up-form .email {
+    margin-top: 24px;
+  }
+
+  .submit {
+    width: 100%;
+  }
+
+  .name {
+    margin-right: 0;
+  }
+}
+
+/* HEADER */
+
+.logo {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+.main-menu {
+  justify-content: space-between;
+  margin-left: 88px;
+}
+
+.main-menu a {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.header {
+  position: absolute;
+  left: calc(50% - 1440px / 2);
+  width: 1440px;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header p {
+  display: inline-block;
+}
+
+.baseline {
+  align-items: baseline;
+}
+
+.search {
+  position: relative;
+  min-width: 240px;
+  height: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  background: $dark;
+  border-radius: 50px;
+  color: #757575;
+  font: normal 13.3px Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+@media screen  and (max-width: 700px) {
+  .main-menu {
+    flex-direction: column;
+    margin-top: 17px;
+    margin-bottom: 18px;
+    margin-left: 0;
+  }
+
+  .header {
+    flex-direction: column;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+  }
+
+  .main-menu a {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2px;
+  }
+
+  .main-menu a:nth-child(4) {
+    margin-bottom: 0;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .column {
+    flex-direction: column;
+  }
+}
+
+/* ATOMIC */
+
+.mt-32 {
+  margin-top: 32px;
+}
+
+.pb-16 {
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 700px) {
+  .mt-32 {
+    margin-top: 16px;
+  }
+
+  .ml-250 {
+    margin-left: 0;
+    width: 100%;
+  }
+}

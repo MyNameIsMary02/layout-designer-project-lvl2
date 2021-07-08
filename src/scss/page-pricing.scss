@@ -1,0 +1,130 @@
+/* Page-PRICE General and Background */
+
+#page-pricing {
+  @include all-section-general-settings;
+
+  text-align: center;
+}
+
+@mixin img-bg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+}
+
+.bg-free {
+  background-image: url('./projects-css-l2-musicbox/images/subscribe_1.png');
+
+  @include img-bg;
+}
+
+.bg-standart {
+  background-image: url('./projects-css-l2-musicbox/images/subscribe_2.png');
+
+  @include img-bg;
+}
+
+.bg-premium {
+  background-image: url('./projects-css-l2-musicbox/images/subscribe_3.png');
+
+  @include img-bg;
+}
+
+/* Card */
+
+.price-section {
+  justify-content: space-between;
+}
+
+.pricing-item {
+  width: 30%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 1rem;
+}
+
+.price {
+  margin-top: 203px;
+  font-size: 64px;
+  line-height: 1em;
+  font-weight: normal;
+}
+
+.upper-price {
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 1em;
+}
+
+.pricing-footer {
+  height: 57px;
+  margin-top: 64px;
+  margin-bottom: 66px;
+  font-size: 12.8px;
+  line-height: 150%;
+  font-weight: normal;
+}
+
+.clear {
+  width: 100%;
+  font-size: 16px;
+  line-height: 150%;
+  border: 1px solid $gray;
+  background: none;
+}
+
+@media screen and (max-width: 700px) {
+  .pricing-item {
+    width: auto;
+    height: 100%;
+    margin-bottom: 27px;
+  }
+
+  .pricing-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .pricing-footer {
+    margin-bottom: 86px;
+  }
+
+  .price {
+    margin-top: 200px;
+  }
+}
+
+/* PRICE-PAGE FOOTER */
+
+.page-footer {
+  padding-bottom: 0;
+  margin-top: 39px;
+}
+
+@media screen and (max-width: 700px) {
+  .page-footer {
+    margin-top: 19px;
+    padding-top: 0;
+    padding-bottom: 12px;
+  }
+}
+
+/* ATOMIC */
+
+.mb-46 {
+  margin-bottom: 46px;
+}
+
+.mt-21 {
+  margin-top: 23px;
+}
+
+.mt-39 {
+  margin-top: 39px;
+}
+
+@media screen and (max-width: 700px) {
+  .mt-21 {
+    margin-top: 18px;
+  }
+}

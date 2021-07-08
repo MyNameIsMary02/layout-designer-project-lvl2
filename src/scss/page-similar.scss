@@ -1,0 +1,58 @@
+/* SIMILAR-PAGE GENERAL */
+
+#page-similar {
+  @include all-section-general-settings;
+
+  margin-bottom: 100px;
+}
+
+.similar-item {
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+
+.similar-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.similar-list img {
+  width: 250px;
+  height: 250px;
+}
+
+@media screen and (max-width: 700px) {
+  .similar-list img {
+    height: 137px;
+    width: 137px;
+  }
+}
+
+.similar-info {
+  text-align: center;
+  padding-top: 17px;
+}
+
+.similar-info h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 700px) {
+  .similar-info {
+    padding-top: 18px;
+  }
+
+  .similar-item {
+    width: 137px;
+  }
+
+  .similar-item:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .w-144 {
+    width: 144px;
+  }
+}

@@ -1,0 +1,58 @@
+/* DISCOGRAPHY-PAGE GENERAL */
+
+#page-discography {
+  @include all-section-general-settings;
+}
+
+.discography-item {
+  margin-right: 50px;
+  margin-bottom: 25px;
+  height: 100%;
+}
+
+.discography-item:nth-child(4) {
+  margin-right: 0;
+}
+
+.discography-list img {
+  height: 250px;
+  width: 250px;
+}
+
+.discography-info {
+  padding-top: 18px;
+}
+
+.discography-info h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 700px) {
+  .discography-list img {
+    height: 137px;
+    width: 137px;
+  }
+
+  .discography-item {
+    width: 137px;
+  }
+
+  .discography-item:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .discography-item:nth-child(5) {
+    margin-bottom: 0;
+  }
+
+  .discography-item:nth-child(6) {
+    margin-bottom: 0;
+  }
+
+  .h-26 {
+    height: 26.4px;
+  }
+}

@@ -1,0 +1,1053 @@
+@font-face {
+  font-weight: normal;
+  font-family: "Roboto";
+  src: url("projects-css-l2-musicbox/fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-weight: bold;
+  font-family: "Roboto";
+  src: url("projects-css-l2-musicbox/fonts/Roboto-Bold.ttf");
+}
+
+h1 {
+  font-size: 60px;
+  line-height: 90px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h2 {
+  font-size: 38px;
+  line-height: 57px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 36px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #fff;
+  background: #08020d;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ul,
+li {
+  list-style: none;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  border: 0;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.container {
+  max-width: 1240px;
+  margin: 0 auto;
+}
+
+.btn {
+  position: relative;
+  justify-content: center;
+  flex-grow: 1;
+  flex-shrink: 1;
+  margin: 0 auto;
+  padding: 20px 30px;
+  border-left-width: 5px;
+  border-right-width: 5px;
+  border-top-width: 5px;
+  border-bottom-width: 5px;
+  border-radius: 5px;
+  font: normal 13.3px Arial, sans-serif;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 700px) {
+  h1 {
+    font-size: 30px;
+    line-height: 45px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 18px;
+    line-height: 27px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+
+  h3 {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: normal;
+    text-transform: uppercase;
+  }
+}
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* BANNER-PAGE General and Background */
+#page-description {
+  height: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 200px 120px;
+}
+
+.main {
+  padding-top: 200px;
+  background-image: url("./projects-css-l2-musicbox/images/banner.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.main-title {
+  position: relative;
+  text-align: center;
+}
+
+@media screen and (max-width: 700px) {
+  #page-description {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .main-title {
+    padding-top: 49px;
+  }
+}
+
+/* FORM */
+.sign-up-form {
+  padding-top: 1em;
+  justify-content: center;
+  max-width: 570px;
+}
+
+#page-description form {
+  margin: 0 auto;
+}
+
+.sign-up-form div {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.name,
+.email {
+  min-width: 270px;
+  min-height: 50px;
+  justify-content: flex-start;
+  padding-left: 20px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  border-radius: 3px;
+  border: solid 2px #cacaca;
+  font-weight: bold;
+  font-size: 14px;
+  color: #fff;
+  background: none;
+  text-transform: capitalize;
+}
+
+.name {
+  margin-right: 12px;
+}
+
+.email {
+  margin-left: 12px;
+}
+
+.submit {
+  min-height: 57px;
+  width: 570px;
+  margin-top: 24px;
+  background: #34c176;
+  color: #fff;
+}
+
+@media screen and (max-width: 700px) {
+  .sign-up-form div {
+    width: 100%;
+    margin-right: 0;
+    margin-left: 0;
+  }
+
+  .email {
+    margin-left: 0;
+  }
+
+  .sign-up-form .email {
+    margin-top: 24px;
+  }
+
+  .submit {
+    width: 100%;
+  }
+
+  .name {
+    margin-right: 0;
+  }
+}
+
+/* HEADER */
+.logo {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin-right: 16px;
+  vertical-align: middle;
+}
+
+a {
+  color: #e0e0e0;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.main-menu {
+  justify-content: space-between;
+  margin-left: 88px;
+}
+
+.main-menu a {
+  margin-left: 12px;
+  margin-right: 12px;
+}
+
+.header {
+  position: absolute;
+  left: calc(50% - 1440px / 2);
+  width: 1440px;
+  align-items: baseline;
+  justify-content: space-between;
+  padding-top: 25px;
+  padding-left: 120px;
+  padding-right: 120px;
+  font-size: 11px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+header p {
+  display: inline-block;
+}
+
+.baseline {
+  align-items: baseline;
+}
+
+.search {
+  position: relative;
+  min-width: 240px;
+  height: 25px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  background: #3c3b3d;
+  border-radius: 50px;
+  color: #757575;
+  font: normal 13.3px Arial, sans-serif;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+@media screen and (max-width: 700px) {
+  .main-menu {
+    flex-direction: column;
+    margin-top: 17px;
+    margin-bottom: 18px;
+    margin-left: 0;
+  }
+
+  .header {
+    flex-direction: column;
+    left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 100%;
+  }
+
+  .main-menu a {
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 2px;
+  }
+
+  .main-menu a:nth-child(4) {
+    margin-bottom: 0;
+  }
+
+  .search {
+    width: 100%;
+  }
+
+  .column {
+    flex-direction: column;
+  }
+}
+
+/* ATOMIC */
+.mt-32 {
+  margin-top: 32px;
+}
+
+.pb-16 {
+  margin-bottom: 16px;
+}
+
+@media screen and (max-width: 700px) {
+  .mt-32 {
+    margin-top: 16px;
+  }
+
+  .ml-250 {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+/*  FOOTER GENERAL */
+.bg-gradient {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  padding-top: 62px;
+  padding-bottom: 48px;
+  background: linear-gradient(89.75deg, #5328a1 32.83%, #95390c 81.56%);
+}
+
+.border {
+  border: 1px solid #e0e0e0;
+}
+
+.footer-container {
+  padding-bottom: 53px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.footer-container div {
+  width: 21%;
+  padding-bottom: 20px;
+  margin-right: 35.2px;
+  flex-grow: 1;
+}
+
+.footer-container .icon-container {
+  width: auto;
+  padding: 0;
+}
+
+button {
+  color: #e0e0e0;
+}
+
+.footer-container button {
+  background: none;
+  border: none;
+}
+
+.footer-container div:nth-child(4) {
+  margin-right: 0;
+}
+
+footer h2 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+}
+
+.icon {
+  vertical-align: middle;
+}
+
+@media screen and (max-width: 700px) {
+  .nav-footer {
+    width: 100%;
+    flex-direction: column;
+  }
+
+  .footer-container {
+    padding-bottom: 54px;
+  }
+
+  .footer-container div {
+    width: 100%;
+    padding-bottom: 20px;
+    margin-right: 0;
+    padding-top: 10px;
+  }
+
+  .footer-container div:first-child {
+    padding-top: 0;
+  }
+
+  .icon {
+    height: 20px;
+  }
+}
+
+/* LINKS */
+
+.nav-footer {
+  margin-top: 40px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.nav-footer a {
+  margin-right: 16px;
+}
+
+.icon-container a {
+  margin-right: 24px;
+}
+
+.nav-footer > a:last-child {
+  margin-right: 0;
+}
+
+.icon-container a:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 700px) {
+  .nav-footer > a {
+    margin-bottom: 16px;
+    margin-right: 0;
+  }
+
+  .nav-footer > a:last-child {
+    margin-bottom: 0;
+  }
+}
+
+/* ATOMIC */
+.h-24 {
+  height: 24px;
+}
+
+/* Page-PRICE General and Background */
+#page-pricing {
+  height: 100%;
+  padding-top: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+.bg-free {
+  background-image: url("./projects-css-l2-musicbox/images/subscribe_1.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+}
+
+.bg-standart {
+  background-image: url("./projects-css-l2-musicbox/images/subscribe_2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+}
+
+.bg-premium {
+  background-image: url("./projects-css-l2-musicbox/images/subscribe_3.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  max-width: 100%;
+}
+
+/* Card */
+.price-section {
+  justify-content: space-between;
+}
+
+.pricing-item {
+  width: 30%;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+  border-radius: 1rem;
+}
+
+.price {
+  margin-top: 203px;
+  font-size: 64px;
+  line-height: 1em;
+  font-weight: normal;
+}
+
+.upper-price {
+  text-transform: uppercase;
+  font-size: 32px;
+  line-height: 1em;
+}
+
+.pricing-footer {
+  height: 57px;
+  margin-top: 64px;
+  margin-bottom: 66px;
+  font-size: 12.8px;
+  line-height: 150%;
+  font-weight: normal;
+}
+
+.clear {
+  width: 100%;
+  font-size: 16px;
+  line-height: 150%;
+  border: 1px solid #e0e0e0;
+  background: none;
+}
+
+@media screen and (max-width: 700px) {
+  .pricing-item {
+    width: auto;
+    height: 100%;
+    margin-bottom: 27px;
+  }
+
+  .pricing-item:last-child {
+    margin-bottom: 0;
+  }
+
+  .pricing-footer {
+    margin-bottom: 86px;
+  }
+
+  .price {
+    margin-top: 200px;
+  }
+}
+
+/* PRICE-PAGE FOOTER */
+.page-footer {
+  padding-bottom: 0;
+  margin-top: 39px;
+}
+
+@media screen and (max-width: 700px) {
+  .page-footer {
+    margin-top: 19px;
+    padding-top: 0;
+    padding-bottom: 12px;
+  }
+}
+
+/* ATOMIC */
+.mb-46 {
+  margin-bottom: 46px;
+}
+
+.mt-21 {
+  margin-top: 23px;
+}
+
+.mt-39 {
+  margin-top: 39px;
+}
+
+@media screen and (max-width: 700px) {
+  .mt-21 {
+    margin-top: 18px;
+  }
+}
+
+/* NEWS-PAGE GENERAL */
+#page-news {
+  height: 100%;
+  padding-top: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+  text-align: center;
+}
+
+/* BUTTON */
+.news-button {
+  display: inline-block;
+  height: 53px;
+  width: 136px;
+  margin-left: 0;
+  padding: 16px 30px;
+  border: 1px solid;
+  background: none;
+  font-size: 12.8px;
+  line-height: 150%;
+}
+
+/* NEWS-ELEMENTS */
+.news-body h3 {
+  font-size: 30px;
+  line-height: 45px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 700px) {
+  .news-body h3 {
+    font-size: 16px;
+    line-height: 24px;
+  }
+}
+
+.orange-text {
+  color: #f89202;
+}
+
+.news-item {
+  justify-content: space-between;
+}
+
+.news-body {
+  width: 575px;
+  text-align: left;
+  margin-right: 0;
+}
+
+.news-item img {
+  width: 575px;
+  height: 286px;
+}
+
+@media screen and (max-width: 700px) {
+  .news-body {
+    width: 100%;
+  }
+
+  .news-item img {
+    width: 374px;
+    height: 186px;
+  }
+}
+
+.news-author {
+  margin-top: 24px;
+  margin-bottom: 48px;
+  font-size: 12.8px;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.news-author img {
+  width: 19px;
+  height: 19px;
+}
+
+@media screen and (max-width: 700px) {
+  .news-author {
+    margin-top: 23px;
+  }
+}
+
+/* ATOMIC */
+.pb-48 {
+  margin-bottom: 48px;
+}
+
+.mt-65 {
+  margin-top: 65px;
+}
+
+.mb-30 {
+  margin-bottom: 30px;
+}
+
+.ml-mr-16 {
+  margin-right: 16px;
+  margin-left: 16px;
+}
+
+.ml-50 {
+  margin-left: 50px;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+@media screen and (max-width: 700px) {
+  .mb-30 {
+    margin-top: 50px;
+    margin-bottom: 16px;
+  }
+
+  .ml-50 {
+    margin-left: 0;
+  }
+
+  .pb-1 {
+    padding-bottom: 1rem;
+  }
+
+  .mt-65 {
+    margin-top: 64px;
+  }
+}
+
+/* PAGE-APP GENERAL */
+#page-app {
+  height: 100%;
+  padding-top: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 100px;
+  text-align: center;
+}
+
+.article {
+  font-size: 16px;
+  text-align: left;
+  width: 50%;
+  margin-right: 145px;
+}
+
+@media screen and (max-width: 700px) {
+  .article {
+    margin-right: 0;
+    width: 100%;
+  }
+}
+
+.img-size {
+  width: 333px;
+  height: 278px;
+}
+
+/* BUTTON */
+.red {
+  width: 131px;
+  height: 53px;
+  padding: 16px 40px;
+  background: #95390c;
+  border: none;
+  border-radius: 32px;
+  font-size: 12.8px;
+  text-transform: none;
+}
+
+/* ATOMIC */
+.ml-0 {
+  margin-left: 0;
+}
+
+.mt-15 {
+  margin-top: 15px;
+}
+
+.mt-1em {
+  margin-top: 1em;
+}
+
+.fl-gr {
+  flex-grow: 1;
+}
+
+@media screen and (max-width: 700px) {
+  .order-1 {
+    order: 1;
+    margin: 0 auto;
+  }
+
+  .order-2 {
+    order: 2;
+  }
+
+  .mt-1em {
+    margin-top: 1em;
+  }
+}
+
+/* ARTIST-PAGE GENERAL */
+.artist {
+  background-image: url("projects-css-l2-musicbox/images/Morten Harket.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.number {
+  margin-top: 1rem;
+  margin-bottom: 3rem;
+}
+
+.artist-title {
+  position: relative;
+  margin-top: 50px;
+}
+
+@media screen and (max-width: 700px) {
+  .artist-title {
+    margin-top: 25px;
+  }
+}
+
+/* BUTTON */
+.purple {
+  background: #5328a1;
+}
+
+.red-fav {
+  background: #95390c;
+}
+
+.mix-btn,
+.favorites-btn {
+  width: 200px;
+  height: 62px;
+  font-size: 12.8px;
+  text-align: left;
+  border: none;
+}
+
+.artist-logo {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  margin-right: 16px;
+}
+
+button.purple {
+  margin-right: 1.5rem;
+}
+
+.filter {
+  filter: invert(100%);
+}
+
+@media screen and (max-width: 700px) {
+  button.purple {
+    margin-bottom: 1.5rem;
+  }
+}
+
+/* POPULAR-TRACK GENERAL */
+#page-popular-track {
+  height: 100%;
+  padding-top: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.popular-track-list {
+  margin-top: 48px;
+}
+
+.track-info {
+  flex-grow: 1;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.popular-track img {
+  width: 55px;
+  height: 55px;
+}
+
+.popular-track h3 {
+  font-size: 12.8px;
+  line-height: 150%;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.popular-track {
+  width: 50%;
+  margin-bottom: 25px;
+  font-size: 12.8px;
+  line-height: 19.2px;
+  font-weight: bold;
+}
+
+@media screen and (max-width: 770px) {
+  .popular-track {
+    width: 100%;
+  }
+}
+
+/* ATOMIC */
+.time {
+  padding-right: 50px;
+}
+
+.pd-l-15 {
+  margin-left: 15px;
+}
+
+@media screen and (max-width: 770px) {
+  .time {
+    padding-right: 0;
+  }
+}
+
+/* DISCOGRAPHY-PAGE GENERAL */
+#page-discography {
+  height: 100%;
+  padding-top: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.discography-item {
+  margin-right: 50px;
+  margin-bottom: 25px;
+  height: 100%;
+}
+
+.discography-item:nth-child(4) {
+  margin-right: 0;
+}
+
+.discography-list img {
+  height: 250px;
+  width: 250px;
+}
+
+.discography-info {
+  padding-top: 18px;
+}
+
+.discography-info h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 700px) {
+  .discography-list img {
+    height: 137px;
+    width: 137px;
+  }
+
+  .discography-item {
+    width: 137px;
+  }
+
+  .discography-item:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .discography-item:nth-child(5) {
+    margin-bottom: 0;
+  }
+
+  .discography-item:nth-child(6) {
+    margin-bottom: 0;
+  }
+
+  .h-26 {
+    height: 26.4px;
+  }
+}
+
+/* SIMILAR-PAGE GENERAL */
+#page-similar {
+  height: 100%;
+  padding-top: 100px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-bottom: 100px;
+}
+
+.similar-item {
+  margin-right: 50px;
+  margin-bottom: 25px;
+}
+
+.similar-item:nth-child(4n) {
+  margin-right: 0;
+}
+
+.similar-list img {
+  width: 250px;
+  height: 250px;
+}
+
+@media screen and (max-width: 700px) {
+  .similar-list img {
+    height: 137px;
+    width: 137px;
+  }
+}
+
+.similar-info {
+  text-align: center;
+  padding-top: 17px;
+}
+
+.similar-info h3 {
+  font-size: 18px;
+  line-height: 27px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+@media screen and (max-width: 700px) {
+  .similar-info {
+    padding-top: 18px;
+  }
+
+  .similar-item {
+    width: 137px;
+  }
+
+  .similar-item:nth-child(2n) {
+    margin-right: 0;
+  }
+
+  .w-144 {
+    width: 144px;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
