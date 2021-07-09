@@ -4,20 +4,22 @@
   @include all-section-general-settings;
 
   margin-bottom: 100px;
+
   text-align: center;
 }
 
 .article {
   font-size: 16px;
-  text-align: left;
+
   width: 50%;
+  text-align: left;
   margin-right: 145px;
 }
 
 @media screen and (max-width: 700px) {
   .article {
-    margin-right: 0;
     width: 100%;
+    margin-right: 0;
   }
 }
 
@@ -32,10 +34,13 @@
   width: 131px;
   height: 53px;
   padding: 16px 40px;
+
   background: $red;
   border: none;
-  border-radius: 32px;
+
   font-size: 12.8px;
+  border-radius: 32px;
+
   text-transform: none;
 }
 

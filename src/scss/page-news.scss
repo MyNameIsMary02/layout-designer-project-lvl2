@@ -10,13 +10,16 @@
 
 .news-button {
   display: inline-block;
-  height: 53px;
   width: 136px;
+  height: 53px;
   margin-left: 0;
   padding: 16px 30px;
-  border: 1px solid;
-  background: none;
+
   font-size: 12.8px;
+
+  background: none;
+
+  border: 1px solid;
   line-height: 150%;
 }
 
@@ -24,8 +27,8 @@
 
 .news-body h3 {
   font-size: 30px;
-  line-height: 45px;
   font-weight: normal;
+  line-height: 45px;
   text-transform: capitalize;
 }
 
@@ -46,8 +49,10 @@
 
 .news-body {
   width: 575px;
-  text-align: left;
+
   margin-right: 0;
+
+  text-align: left;
 }
 
 .news-item img {
@@ -69,8 +74,9 @@
 .news-author {
   margin-top: 24px;
   margin-bottom: 48px;
-  font-size: 12.8px;
+
   font-weight: normal;
+  font-size: 12.8px;
   text-transform: uppercase;
 }
 

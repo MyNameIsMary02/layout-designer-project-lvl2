@@ -10,8 +10,8 @@
 
 .track-info {
   flex-grow: 1;
-  justify-content: space-between;
   align-items: center;
+  justify-content: space-between;
 }
 
 .popular-track img {
@@ -21,17 +21,18 @@
 
 .popular-track h3 {
   font-size: 12.8px;
-  line-height: 150%;
   font-weight: bold;
+  line-height: 150%;
   text-transform: uppercase;
 }
 
 .popular-track {
   width: 50%;
   margin-bottom: 25px;
+
   font-size: 12.8px;
-  line-height: 19.2px;
   font-weight: bold;
+  line-height: 19.2px;
 }
 
 @media screen and (max-width: 770px) {

@@ -8,9 +8,10 @@
 
 @mixin img-bg {
   background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
+
   max-width: 100%;
+  background-position: center;
+  background-size: cover;
 }
 
 .bg-free {
@@ -39,21 +40,23 @@
 
 .pricing-item {
   width: 30%;
-  padding-left: 1.5rem;
   padding-right: 1.5rem;
+  padding-left: 1.5rem;
+
   border-radius: 1rem;
 }
 
 .price {
   margin-top: 203px;
+
   font-size: 64px;
-  line-height: 1em;
   font-weight: normal;
+  line-height: 1em;
 }
 
 .upper-price {
-  text-transform: uppercase;
   font-size: 32px;
+  text-transform: uppercase;
   line-height: 1em;
 }
 
@@ -61,17 +64,21 @@
   height: 57px;
   margin-top: 64px;
   margin-bottom: 66px;
+
   font-size: 12.8px;
-  line-height: 150%;
   font-weight: normal;
+  line-height: 150%;
 }
 
 .clear {
   width: 100%;
+
   font-size: 16px;
   line-height: 150%;
-  border: 1px solid $gray;
+
   background: none;
+
+  border: 1px solid $gray;
 }
 
 @media screen and (max-width: 700px) {
@@ -97,8 +104,8 @@
 /* PRICE-PAGE FOOTER */
 
 .page-footer {
-  padding-bottom: 0;
   margin-top: 39px;
+  padding-bottom: 0;
 }
 
 @media screen and (max-width: 700px) {

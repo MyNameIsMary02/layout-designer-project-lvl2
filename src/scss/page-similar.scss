@@ -22,19 +22,21 @@
 
 @media screen and (max-width: 700px) {
   .similar-list img {
-    height: 137px;
     width: 137px;
+    height: 137px;
   }
 }
 
 .similar-info {
-  text-align: center;
   padding-top: 17px;
+
+  text-align: center;
 }
 
 .similar-info h3 {
   font-size: 18px;
   line-height: 27px;
+
   font-weight: bold;
   text-transform: capitalize;
 }

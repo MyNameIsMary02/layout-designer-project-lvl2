@@ -1,14 +1,15 @@
 /* BANNER-PAGE General and Background */
 
 #page-description {
-  height: 100%;
   max-width: 1440px;
+  height: 100%;
   margin: 0 auto;
   padding: 200px 120px;
 }
 
 .main {
   padding-top: 200px;
+
   background-image: url('./projects-css-l2-musicbox/images/banner.png');
   background-position: center;
   background-size: cover;
@@ -16,6 +17,7 @@
 
 .main-title {
   position: relative;
+
   text-align: center;
 }
 
@@ -33,9 +35,9 @@
 /* FORM */
 
 .sign-up-form {
-  padding-top: 1em;
   justify-content: center;
   max-width: 570px;
+  padding-top: 1em;
 }
 
 #page-description form {
@@ -43,25 +45,31 @@
 }
 
 .sign-up-form div {
-  margin-left: 12px;
   margin-right: 12px;
+  margin-left: 12px;
 }
 
 .name,
 .email {
+  justify-content: flex-start;
   min-width: 270px;
   min-height: 50px;
-  justify-content: flex-start;
-  padding-left: 20px;
   padding-top: 16px;
+  padding-left: 20px;
   padding-bottom: 16px;
-  border-radius: 3px;
+
   border: solid 2px #cacaca;
+
+  border-radius: 3px;
+
+  color: #fff;
+
   font-weight: bold;
   font-size: 14px;
-  color: #fff;
-  background: none;
+
   text-transform: capitalize;
+
+  background: none;
 }
 
 .name {
@@ -73,10 +81,12 @@
 }
 
 .submit {
-  min-height: 57px;
   width: 570px;
+  min-height: 57px;
   margin-top: 24px;
+
   background: $green;
+
   color: #fff;
 }
 
@@ -111,6 +121,7 @@
   width: 24px;
   height: 24px;
   margin-right: 16px;
+
   vertical-align: middle;
 }
 
@@ -120,21 +131,26 @@
 }
 
 .main-menu a {
-  margin-left: 12px;
   margin-right: 12px;
+  margin-left: 12px;
 }
 
 .header {
   position: absolute;
   left: calc(50% - 1440px / 2);
-  width: 1440px;
+
   align-items: baseline;
+
+  width: 1440px;
+
   justify-content: space-between;
   padding-top: 25px;
-  padding-left: 120px;
   padding-right: 120px;
-  font-size: 11px;
+  padding-left: 120px;
+
   font-weight: bold;
+
+  font-size: 11px;
   text-transform: uppercase;
 }
 
@@ -148,17 +164,21 @@ header p {
 
 .search {
   position: relative;
+
   min-width: 240px;
   height: 25px;
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
+
   background: $dark;
-  border-radius: 50px;
+
   color: #757575;
+
+  border-radius: 50px;
   font: normal 13.3px Arial, sans-serif;
-  text-transform: uppercase;
   text-align: left;
+  text-transform: uppercase;
 }
 
 @media screen  and (max-width: 700px) {
@@ -170,16 +190,19 @@ header p {
   }
 
   .header {
-    flex-direction: column;
     left: 0;
-    padding-left: 20px;
-    padding-right: 20px;
+  
+    flex-direction: column;
+  
     width: 100%;
+    
+    padding-right: 20px;
+    padding-left: 20px;
   }
 
   .main-menu a {
-    margin-left: 0;
     margin-right: 0;
+    margin-left: 0;
     margin-bottom: 2px;
   }
 
@@ -212,7 +235,7 @@ header p {
   }
 
   .ml-250 {
-    margin-left: 0;
     width: 100%;
+    margin-left: 0;
   }
 }

@@ -13,6 +13,7 @@
 
 .artist-title {
   position: relative;
+
   margin-top: 50px;
 }
 
@@ -36,8 +37,10 @@
 .favorites-btn {
   width: 200px;
   height: 62px;
+
   font-size: 12.8px;
   text-align: left;
+
   border: none;
 }
 
@@ -45,8 +48,10 @@
   display: inline-block;
   width: 20px;
   height: 20px;
-  vertical-align: middle;
+
   margin-right: 16px;
+
+  vertical-align: middle;
 }
 
 button.purple {

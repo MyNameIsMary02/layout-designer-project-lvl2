@@ -5,9 +5,9 @@
 }
 
 .discography-item {
+  height: 100%;
   margin-right: 50px;
   margin-bottom: 25px;
-  height: 100%;
 }
 
 .discography-item:nth-child(4) {
@@ -15,8 +15,8 @@
 }
 
 .discography-list img {
-  height: 250px;
   width: 250px;
+  height: 250px;
 }
 
 .discography-info {
@@ -25,15 +25,15 @@
 
 .discography-info h3 {
   font-size: 18px;
-  line-height: 27px;
   font-weight: bold;
+  line-height: 27px;
   text-transform: capitalize;
 }
 
 @media screen and (max-width: 700px) {
   .discography-list img {
-    height: 137px;
     width: 137px;
+    height: 137px;
   }
 
   .discography-item {
