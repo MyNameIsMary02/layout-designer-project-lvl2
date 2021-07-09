@@ -16,14 +16,14 @@
 }
 
 .footer-container {
-  padding-bottom: 53px;
   padding-right: 20px;
   padding-left: 20px;
+  padding-bottom: 53px;
 
   div {
-    width: 21%;
     flex-grow: 1;
-  
+    width: 21%;
+
     margin-right: 35.2px;
     padding-bottom: 20px;
   }
@@ -44,8 +44,8 @@
 }
 
 footer h2 {
-  font-size: 18px;
   font-weight: bold;
+  font-size: 18px;
   line-height: 27px;
 }
 
@@ -66,8 +66,8 @@ footer h2 {
   .footer-container div {
     width: 100%;
     margin-right: 0;
-    padding-bottom: 20px;
     padding-top: 10px;
+    padding-bottom: 20px;
   }
 
   .footer-container div:first-child {

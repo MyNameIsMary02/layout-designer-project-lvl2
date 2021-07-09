@@ -9,11 +9,13 @@
 }
 
 .article {
+  width: 50%;
+
   font-size: 16px;
 
-  width: 50%;
-  text-align: left;
   margin-right: 145px;
+
+  text-align: left;
 }
 
 @media screen and (max-width: 700px) {
@@ -36,12 +38,13 @@
   padding: 16px 40px;
 
   background: $red;
+  font-size: 12.8px;
+
   border: none;
 
-  font-size: 12.8px;
-  border-radius: 32px;
-
   text-transform: none;
+
+  border-radius: 32px;
 }
 
 /* ATOMIC */

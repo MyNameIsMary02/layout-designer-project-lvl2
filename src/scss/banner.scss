@@ -55,14 +55,14 @@
   min-width: 270px;
   min-height: 50px;
   padding-top: 16px;
-  padding-left: 20px;
   padding-bottom: 16px;
+  padding-left: 20px;
+
+  color: #fff;
 
   border: solid 2px #cacaca;
 
   border-radius: 3px;
-
-  color: #fff;
 
   font-weight: bold;
   font-size: 14px;
@@ -85,9 +85,9 @@
   min-height: 57px;
   margin-top: 24px;
 
-  background: $green;
-
   color: #fff;
+
+  background: $green;
 }
 
 @media screen and (max-width: 700px) {
@@ -141,9 +141,10 @@
 
   align-items: baseline;
 
+  justify-content: space-between;
+
   width: 1440px;
 
-  justify-content: space-between;
   padding-top: 25px;
   padding-right: 120px;
   padding-left: 120px;
@@ -171,12 +172,14 @@ header p {
   padding-bottom: 5px;
   padding-left: 10px;
 
-  background: $dark;
-
   color: #757575;
 
-  border-radius: 50px;
+  background: $dark;
+
   font: normal 13.3px Arial, sans-serif;
+
+  border-radius: 50px;
+
   text-align: left;
   text-transform: uppercase;
 }
@@ -191,7 +194,7 @@ header p {
 
   .header {
     left: 0;
-  
+ 
     flex-direction: column;
   
     width: 100%;
@@ -201,9 +204,9 @@ header p {
   }
 
   .main-menu a {
+    margin-bottom: 2px;
     margin-right: 0;
     margin-left: 0;
-    margin-bottom: 2px;
   }
 
   .main-menu a:nth-child(4) {
