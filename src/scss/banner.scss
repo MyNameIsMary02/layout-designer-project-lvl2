@@ -62,10 +62,10 @@
 
   border: solid 2px #cacaca;
 
-  border-radius: 3px;
-
   font-weight: bold;
   font-size: 14px;
+
+  border-radius: 3px;  
 
   text-transform: capitalize;
 
@@ -174,13 +174,14 @@ header p {
 
   color: #757575;
 
-  background: $dark;
-
   font: normal 13.3px Arial, sans-serif;
+
+  background: $dark;  
+
+  text-align: left;
 
   border-radius: 50px;
 
-  text-align: left;
   text-transform: uppercase;
 }
 
@@ -194,18 +195,17 @@ header p {
 
   .header {
     left: 0;
- 
     flex-direction: column;
-  
+
     width: 100%;
-    
+
     padding-right: 20px;
     padding-left: 20px;
   }
 
   .main-menu a {
-    margin-bottom: 2px;
     margin-right: 0;
+    margin-bottom: 2px;
     margin-left: 0;
   }
 

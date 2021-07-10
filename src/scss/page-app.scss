@@ -11,9 +11,9 @@
 .article {
   width: 50%;
 
-  font-size: 16px;
-
   margin-right: 145px;
+
+  font-size: 16px;
 
   text-align: left;
 }
@@ -37,12 +37,13 @@
   height: 53px;
   padding: 16px 40px;
 
-  background: $red;
   font-size: 12.8px;
 
-  border: none;
+  background: $red;
 
   text-transform: none;
+
+  border: none;
 
   border-radius: 32px;
 }
