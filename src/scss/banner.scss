@@ -60,14 +60,14 @@
 
   color: #fff;
 
-  border: solid 2px #cacaca;
-
   font-weight: bold;
   font-size: 14px;
 
-  border-radius: 3px;  
-
   text-transform: capitalize;
+
+  border: solid 2px #cacaca;
+
+  border-radius: 3px;
 
   background: none;
 }
@@ -176,13 +176,13 @@ header p {
 
   font: normal 13.3px Arial, sans-serif;
 
-  background: $dark;  
-
   text-align: left;
 
-  border-radius: 50px;
+  background: $dark;
 
   text-transform: uppercase;
+
+  border-radius: 50px;
 }
 
 @media screen  and (max-width: 700px) {
@@ -195,6 +195,7 @@ header p {
 
   .header {
     left: 0;
+
     flex-direction: column;
 
     width: 100%;
